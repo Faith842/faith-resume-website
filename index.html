@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Faith Mutoni - Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Faith Mutoni</h1>
+    <p>Front-End Developer & Creative Problem Solver</p>
+
+    <!-- Navbar toggle button -->
+    <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" role="button" tabindex="0">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate front-end developer with a love for clean code, beautiful design, and creative solutions...
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Design</li>
+        <li>Problem Solving</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>We'll fill this in the next step with job details.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Highlight key web projects you've worked on here.</p>
+    </section>
+  </main>
+
+  <footer id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form" novalidate>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Write your message here..." rows="4" required></textarea>
+
+    <button type="submit">Send Message</button>
+    <p id="form-message" role="alert" aria-live="polite"></p>
+  </form>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
